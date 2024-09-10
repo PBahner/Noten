@@ -171,9 +171,9 @@
 
     <p>
       Quelle:
-      <NuxtLink to="https://de.wikipedia.org/wiki/Vorlage:Punktesystem_der_gymnasialen_Oberstufe" target="_blank">
+      <a href="https://de.wikipedia.org/wiki/Vorlage:Punktesystem_der_gymnasialen_Oberstufe" target="_blank">
         de.wikipedia.org/wiki/Vorlage:Punktesystem_der_gymnasialen_Oberstufe
-      </NuxtLink>
+      </a>
     </p>
 
     <h2>Berufsschule</h2>
@@ -245,9 +245,9 @@
 
     <p>
       Quelle:
-      <NuxtLink to="https://www.revosax.sachsen.de/vorschrift/17812-Schulordnung-Berufsschule#p22" target="_blank">
+      <a href="https://www.revosax.sachsen.de/vorschrift/17812-Schulordnung-Berufsschule#p22" target="_blank">
         www.revosax.sachsen.de/vorschrift/17812-Schulordnung-Berufsschule#p22
-      </NuxtLink>
+      </a>
     </p>
   </article>
 </template>
@@ -296,6 +296,8 @@ label {
 
 table {
   width: 100%;
+  display: block;
+  overflow-x: auto;
 
   tr {
     &.green1,
@@ -336,5 +338,9 @@ table {
       text-align: center;
     }
   }
+}
+
+a {
+  word-wrap: break-word;
 }
 </style>
